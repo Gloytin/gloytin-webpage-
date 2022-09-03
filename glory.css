@@ -1,0 +1,205 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url(images/background.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    height: 150vh;  
+    width: 100%;    
+    background-blend-mode: darken;
+}
+
+.logo{
+    padding: 10px;
+    padding-left: 16px;
+    float: left;
+    font-family: Arial;
+    font-size: 20px;
+    padding-left: 11px;
+    position: relative;
+    
+}
+
+.logo a{
+    color: orange;
+}
+
+.current{
+    background: orange;
+    
+}
+
+.logo a:hover{
+    color: orangered;
+}
+
+
+
+.navbar {
+    margin-top: 8px;
+    padding-left: 500px;
+        
+}
+
+
+
+.navbar li{
+    display: inline-block;
+    padding: 20px;
+    color: white;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: white;
+    transition: 0.3s ease-in-out;
+}
+
+ /*   .navbar ul a:hover{
+        color: orange;   
+}
+ */
+
+.navbar ul a:active{
+    color: orangered;
+}
+
+
+.navbar form {
+          padding-left: 200px;     
+}
+
+.search{
+    background: transparent;
+    border: 2px solid black;  
+}
+
+.button{
+    background: orange;
+    border: 1px solid;
+}
+
+.button:hover{
+    background: orangered;
+}
+
+.login:hover{
+    background: orangered;
+}
+
+.content{
+    
+    color: white;
+    margin-top: 10px;
+    border-left: 15px;
+    padding-left: 80px;
+    float: left;
+}
+
+.content2{
+    float: left;
+    padding-top: 20px;
+    padding-left: 80px;
+    color: white;
+    font-family: Times New Roman;
+    position: relative;
+    line-height: 1.5em;
+    font-size: 18px;  
+}
+
+.joinus{
+    padding-top: 250px;
+    padding-left: 80px; 
+}
+
+.submit{
+    border: 1px solid orange;
+    background: orange;
+    width: 300px;
+    height: 50px;
+    font-size: 18;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.submit value{
+    font-family: Times new roman;
+    font-size: 20px;
+}
+
+.submit:hover{
+    color: white;
+    background: orangered;
+}
+
+
+.myform{
+    width: 250px;
+    height: 317px;
+    top: -20px;
+    left: 870px;
+    border-radius: 10px;
+    padding: 25px;
+    position: absolute;
+    background: brown;
+    margin-top: 120px;
+    margin-right: 100px;
+}
+
+.myform h3{
+    background: white;
+    color: orange;
+    height: 40px;
+    width: 200px;
+    border-radius: 10px;   
+    padding: 5px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.myform input{
+    background: transparent;
+    padding: 10px;
+    border-bottom: 1px solid orange;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+
+.myform .login{
+    color: black;
+    background: orange;
+    margin-top: 20px;
+    padding: 20px;
+    padding-top: 5px;
+    width: 200px;
+    height: 5px;
+    text-align: center;
+    margin-left: 15px;
+    border-radius: 10px;
+}
+
+.myform input::placeholder{
+    color: white;
+    font-family: san serif;
+}
+
+.myform h4{
+    margin-top: 5px;
+    text-align: center;
+}
+
+.myform img{
+    width: 50px;
+    height: 40px;
+    display: inline;
+    padding: 15px;
+    
+}
+
+
+
